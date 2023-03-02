@@ -1,33 +1,110 @@
-.cuerpoPagina{
-    width: 1440px;
-    height: 1024px;
-    background-color: green;
+
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
-.titulo{
-    background-color: aquamarine;
+.logo{
+
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
 }
 
-.texto{
-    width: 400px;
-    height: 944px;
-    background-color: rgb(220, 121, 0);
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 
-.btnEncriptar{
-
-}
-
-.btnDesencriptar{
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
     
 }
 
-aside{
-    width: 400px;
-    height: 944px;
-    background-color: blueviolet;
+::placeholder { color: #0A3871; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    background: white;
+    background-image: url("./img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
 }
 
-footer{
-    background-color: #cccccc;
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.img2{
+    margin-left: 70px;
+    width: 25px;
+    height: 25px;
+    padding-top: 40px;
+    margin-right: 6px;
 }
